@@ -10,7 +10,6 @@ function resetPizzeriaTable() {
 
   return pool
     .query(seedSql)
-    .then(() => console.log("Database reset successful"))
     .catch((err) => console.error("Database reset failed", err));
 }
 
