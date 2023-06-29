@@ -2,7 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const menuRoutes = require("./routes/menuRoutes");
 const orderRoutes = require("./routes/orderRoutes");
-const userRoutes = require("./routes/userRoutes");
+const userRoutes = require("./routes/usersRoutes");
 const app = express();
 
 // Use body parser to parse JSON bodies
